@@ -1,0 +1,51 @@
+html {
+    text-align: center;
+    background-color: black !important;
+    color: white !important;
+    font-family: publik, helvetica, arial, sans-serif
+}
+
+.logo {
+    height: 100px;
+    margin-top: 5vh;
+}
+
+.logo svg {
+    height: 100%;
+}
+
+div {
+    background-color: (27, 22, 20);
+}
+
+h2 {
+    font-weight: lighter;
+    margin-top: 200px !important;
+}
+
+h4 {
+    margin-top: 100px !important;
+}
+
+.command {
+    color: #00c800;
+    /* color: rgb(133, 132, 132); */
+}
+
+.output {
+    color: rgb(133, 132, 132);
+}
+
+a {
+    /* color: #00c800; */
+    text-decoration: underline;
+    font-weight: bolder;
+    color: white;
+}
+
+object {
+    background-color: white;
+    max-width: 30%;
+    min-width: 750px;
+    height: auto;
+}
