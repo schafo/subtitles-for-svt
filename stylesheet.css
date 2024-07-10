@@ -8,10 +8,7 @@ html {
 .logo {
     height: 100px;
     margin-top: 5vh;
-}
-
-.logo svg {
-    height: 100%;
+    margin-bottom: 4em;
 }
 
 div {
@@ -20,11 +17,11 @@ div {
 
 h2 {
     font-weight: lighter;
-    margin-top: 200px !important;
+    margin-top: 50px !important;
 }
 
 h4 {
-    margin-top: 100px !important;
+    margin-top: 50px !important;
 }
 
 .command {
@@ -48,4 +45,38 @@ object {
     max-width: 30%;
     min-width: 750px;
     height: auto;
+}
+
+h1 {
+    font-size: 1.7em;
+    margin: 0;
+}
+
+.svt-large {
+    font-size: 6em;
+    margin-bottom: 0;
+}
+
+.green-line {
+    width: 15%;
+    height: 1px;
+    border: 0;
+    border-top: 2px solid #00c800;
+}
+
+.instructions {
+    width: 600px;
+    margin: auto;
+}
+
+.dragable {
+    border-radius: 8px;
+    background-color: #00c800;;
+    padding: 10px;
+    width: max-content;
+    margin: auto;
+}
+
+.dragable a {
+    text-decoration: none;
 }

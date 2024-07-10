@@ -22,13 +22,15 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
     def make_translation_request(self, original_text):
         url = '' # Set remote server URL here
         
+        if not url:
+            raise Exception("The URL for the remote translation server must be set.")
+
         post_fields = {
             'q': original_text,
-            'source': "sv",
-            'target': "en",
+            'source': "sv", # input language
+            'target': "en", # target language
             'format': "text",
-            'api_key': ""
-	    }     
+            'api_key': ""}
 
         request = Request(url, urlencode(post_fields).encode())
         json_response = urlopen(request).read().decode()
